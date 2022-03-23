@@ -9,6 +9,14 @@ This is my copy of the code from the zero to production book for rust
 cargo watch -x check -x test -x run
 ```
 
+### CI Steps
+```shell
+cargo tarpaulin --ignore-tests
+cargo clippy
+cargo fmt
+cargo audit
+```
+
 ### Resources:
 
 - [actix-web website](https://actix.rs/)
