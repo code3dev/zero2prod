@@ -22,6 +22,8 @@ cargo audit
 - [actix-web website](https://actix.rs/)
 - [actix-web docs](https://docs.rs/actix-web/4.0.1/actix_web/index.html)
 - [actix-web examples](https://github.com/actix/examples)
+- [Understanding Serde](https://www.joshmcguigan.com/blog/understanding-serde/)
+- [sqlx](https://docs.rs/sqlx/)
 
 ### Endpoints
 
