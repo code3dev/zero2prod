@@ -7,6 +7,8 @@ This is my copy of the code from the zero to production book for rust
 
 ```shell
 cargo watch -x check -x test -x run
+
+TEST_LOG=true cargo test health_check_works | bunyan
 ```
 
 ### CI Steps
@@ -15,6 +17,12 @@ cargo tarpaulin --ignore-tests
 cargo clippy
 cargo fmt
 cargo audit
+```
+
+### Cargo Stuff
+```shell
+cargo install cargo-udeps
+cargo install bunyan
 ```
 
 ### Resources:
